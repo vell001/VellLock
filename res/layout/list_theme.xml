@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/word_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/preference_single_item"
+        android:clickable="true"
+        android:layout_marginTop="5dp" 
+        android:gravity="center_vertical" >
+
+        <!-- android:onClick="btn_wrong_wrod" -->
+
+        <TextView
+            android:id="@+id/word_body"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="matrix"
+            android:src="@drawable/mm_submenu" />
+    </RelativeLayout>
+
+</LinearLayout>

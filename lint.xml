@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DrawAllocation" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src\jeff\iphonelock\IPhoneLock.java" />
+        <ignore path="src\vell\bibi\velllock\SensorService.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src\vell\bibi\velllock\Word.java" />
+    </issue>
+    <issue id="ShowToast" severity="ignore" />
+    <issue id="SimpleDateFormat">
+        <ignore path="src\jeff\iphonelock\DrawLockScreen.java" />
+        <ignore path="src\vell\bibi\velllock\DatabaseOperate.java" />
+    </issue>
+</lint>

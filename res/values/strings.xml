@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome To Vell001</string>
+    <string name="app_name">VellLock</string>
+    <string name="path">下载路径</string>
+    <string name="button1">进入下载</string>
+    <string name="download1">英语四级词汇单词包下载</string>
+    <string name="download2">英语六级词汇单词包下载</string>
+    <string name="download3">英语四级词汇语音包下载</string>
+    <string name="download4">英语六级词汇语音包下载</string>
+    <string name="success">下载完成</string>
+    <string name="error">下载失败</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+    <string name="note_title">请输入便签内容:</string>
+    <string name="edithint">在这里留下你的痕迹吧...</string>
+
+</resources>

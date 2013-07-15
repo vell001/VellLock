@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GB2312">
+    <file url="file://$PROJECT_DIR$/src/vell/bibi/setting/LockSetting.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/vell/bibi/velllock/MyLockScreenService.java" charset="GBK" />
+    <file url="PROJECT" charset="GB2312" />
+  </component>
+</project>
+

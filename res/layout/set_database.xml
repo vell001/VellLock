@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/set_database"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/confirm_dialog_bg2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:text="设置单词库"
+        android:textColor="#333"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/select_cet_4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="英语四级词汇"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/select_cet_6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="英语六级词汇"
+            android:textColor="#000"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_style_green"
+        android:gravity="center"
+        android:onClick="ensure_btn"
+        android:text="确定"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/set_shake"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/confirm_dialog_bg2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:text="设置复习频率"
+        android:textColor="#333"
+        android:textSize="26sp" />
+
+    <SeekBar
+        android:id="@+id/review"
+        android:layout_width="203dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_style_green"
+        android:gravity="center"
+        android:onClick="ensure_btn"
+        android:text="确定"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>
